@@ -1,0 +1,22 @@
+These are the different tables to create:
+
+Users:
+id
+name
+email
+
+Addresses:
+id
+street
+city
+zip_code
+
+User_Addresses: This is a join table. Usually join tables are set up with both names of the tables being joined. The first name must be singular. The second name must be plural. This is what Active Record is expecting.
+id
+user_id
+address_id
+
+<< This can be used to add to an array
+
+to_a = creates an array
+require pp = pp stands for pretty print
